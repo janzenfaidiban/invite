@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Dosis');
+
+        * {
+            font-family: "Dosis";
+        }
+    </style>
 
 </head>
 
 <body>
-    
+
     <!-- header start -->
-    <section class="py-9 text-center">
+    <section class="py-9 text-center sticky top-0 bg-white">
         <div class="container mx-auto grid justify-items-center">
             <img src="./public/assets/logo-header.png" alt="logo">
         </div>
@@ -21,22 +31,31 @@
     <!-- header end -->
 
     <!-- banner start -->
-    <section class="bg-gray-200 py-9 text-center" style="padding: 150px 0 150px 0;">
-        <div class="container mx-auto my-9">
-            <h1 class="text-9xl font-bold my-9 text-gray-800">Undangan Online</h1>
-            <p class="text-gray-800">
+    <section class="bg-gray-800 py-9 text-center" style="padding: 150px 0 150px 0;">
+        <div class="container my-9">
+            <div class="grid place-items-center mb-9">
+                <h1 class="text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-purple-500 to-blue-400">
+                  Undangan Online
+                </h1>
+            </div>
+            <p class="text-gray-400 text-2xl">
                 untuk berbagai jenis acara dan kegiatan
             </p>
+
+
         </div>
     </section>
     <!-- banner end -->
 
     <!-- nav start -->
-    <section class="bg-gray-400 py-9 text-center">
+    <section class="py-9 text-center ">
         <div class="container mx-auto my-5" class="bg">
-            <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white text-2xl mx-5 px-9 py-2 rounded-full"><i class="fa-solid fa-heart"></i> Pernikahan</a>
-            <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white text-2xl mx-5 px-9 py-2 rounded-full"><i class="fa-solid fa-cake-candles"></i> Ulang Tahun</a>
-            <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white text-2xl mx-5 px-9 py-2 rounded-full"><i class="fa-solid fa-calendar-alt"></i> Kegiatan Lainnya</a>
+            <a href="#"
+                class="bg-gradient-to-b from-purple-600 to-blue-500 hover:bg-gradient-to-b hover:from-purple-600 hover:to-blue-400 transition text-white text-2xl mx-5 px-9 py-2 rounded-full"><i class="fa-solid fa-heart"></i> Pernikahan</a>
+            <a href="#"
+                class="bg-gradient-to-b from-purple-600 to-blue-500 hover:bg-gradient-to-b hover:from-purple-600 hover:to-blue-400 transition transition text-white text-2xl mx-5 px-9 py-2 rounded-full"><i class="fa-solid fa-cake-candles"></i> Ulang Tahun</a>
+            <a href="#"
+                class="bg-gradient-to-b from-purple-600 to-blue-500 hover:bg-gradient-to-b hover:from-purple-600 hover:to-blue-400 transition transition text-white text-2xl mx-5 px-9 py-2 rounded-full"><i class="fa-solid fa-calendar-alt"></i> Kegiatan Lainnya</a>
         </div>
     </section>
     <!-- nav end -->
@@ -44,52 +63,70 @@
     <!-- main content start -->
     <section class="py-9 text-center">
         <div class="container mx-auto">
-            
+
             <div class="grid justify-items-center lg:grid-cols-3 gap-5">
                 <div class="border p-5">
                     <img src="./public/mockup/demo1.png" alt="Demo" class="">
                     <p class="mb-5 text-gray-800">One Page</p>
-                    <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan Demo</a>
+                    <a href="#"
+                        class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan
+                        Demo</a>
                 </div>
                 <div class="border p-5">
                     <img src="./public/mockup/demo2.png" alt="Demo">
                     <p class="mb-5 text-gray-800">One Page</p>
-                    <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan Demo</a>
+                    <a href="#"
+                        class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan
+                        Demo</a>
                 </div>
                 <div class="border p-5">
                     <img src="./public/mockup/demo3.png" alt="Demo">
                     <p class="mb-5 text-gray-800">One Page</p>
-                    <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan Demo</a>
+                    <a href="#"
+                        class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan
+                        Demo</a>
                 </div>
                 <div class="border p-5">
                     <img src="./public/mockup/demo4.png" alt="Demo" class="">
                     <p class="mb-5 text-gray-800">One Page</p>
-                    <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan Demo</a>
+                    <a href="#"
+                        class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan
+                        Demo</a>
                 </div>
                 <div class="border p-5">
                     <img src="./public/mockup/demo5.png" alt="Demo">
                     <p class="mb-5 text-gray-800">One Page</p>
-                    <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan Demo</a>
+                    <a href="#"
+                        class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan
+                        Demo</a>
                 </div>
                 <div class="border p-5">
                     <img src="./public/mockup/demo6.png" alt="Demo">
                     <p class="mb-5 text-gray-800">One Page</p>
-                    <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan Demo</a>
+                    <a href="#"
+                        class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan
+                        Demo</a>
                 </div>
                 <div class="border p-5">
                     <img src="./public/mockup/demo7.png" alt="Demo" class="">
                     <p class="mb-5 text-gray-800">One Page</p>
-                    <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan Demo</a>
+                    <a href="#"
+                        class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan
+                        Demo</a>
                 </div>
                 <div class="border p-5">
                     <img src="./public/mockup/demo8.png" alt="Demo">
                     <p class="mb-5 text-gray-800">One Page</p>
-                    <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan Demo</a>
+                    <a href="#"
+                        class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan
+                        Demo</a>
                 </div>
                 <div class="border p-5">
                     <img src="./public/mockup/demo9.png" alt="Demo">
                     <p class="mb-5 text-gray-800">One Page</p>
-                    <a href="#" class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan Demo</a>
+                    <a href="#"
+                        class="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-full">Tampilkan
+                        Demo</a>
                 </div>
             </div>
 
@@ -99,27 +136,59 @@
     <!-- main content end -->
 
     <!-- footer start -->
-    <section class="pt-5 mt-9 text-center border-t-2">
-        <div class="grid grid-rows-2 gap-5">
-            <div class=" grid justify-items-center">
-                <img src="./public/assets/logo.png" alt="Logo" class="">
-                <div class="flex gap-9 text-3xl text-gray-800 my-5">
-                    <a href="https://instagram.com/..." class="hover:text-gray-500"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://facebook.com/..." class="hover:text-gray-500"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com/..." class="hover:text-gray-500"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://tiktok.com/..." class="hover:text-gray-500"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="https://youtube.com/..." class="hover:text-gray-500"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-            <div class="bg-gray-500 pt-9 grid justify-items-center">
-                <p class="text-gray-800">
-                    <hr class=" border-t-2 border-gray-600 w-60 mb-9" style="">
-                    &copy; 2023, yaswarau.com. Powered by <a href="https://nokensoft.com" target="_blank" class="font-bold" title="PT. Noken Inovasi Teknologi Informasi">Nokensoft.com</a>
-                </p>
+    <section class="py-9 mt-9 text-center border-t-2">
+        <div class=" grid justify-items-center">
+            <img src="./public/assets/logo.png" alt="Logo" class="">
+            <div class="flex gap-9 text-3xl text-gray-800 my-5">
+                <a href="https://instagram.com/..." class="hover:text-gray-500"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/..." class="hover:text-gray-500"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/..." class="hover:text-gray-500"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a href="https://tiktok.com/..." class="hover:text-gray-500"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://youtube.com/..." class="hover:text-gray-500"><i
+                        class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
     </section>
     <!-- footer end -->
+
+    
+
+    <seection class="">
+
+        <footer class="bg-gray-800 border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-900">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+                <div>
+                    <p class="text-gray-100">
+                        &copy; 2023, yaswarau.com. Powered by <a href="https://nokensoft.com" target="_blank"
+                            class="font-bold hover:text-gray-100 transition" title="PT. Noken Inovasi Teknologi Informasi">Nokensoft.com</a>
+                    </p>
+                </div>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="flex flex-col p-4 mt-4  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:border-gray-700">
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-100 transition md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Tentang Kami</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-100 transition md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Kerja Sama</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-100 transition md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Cara Pembayaran</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-100 transition md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-100 transition md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Site Map</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </seection>
 
 </body>
 
